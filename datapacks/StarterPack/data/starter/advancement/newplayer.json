@@ -1,0 +1,28 @@
+{
+  "parent": "starter:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "text": "Welcome to the Tuzemlen Server!",
+      "color": "gold"
+    },
+    "description": {
+      "text": "You have joined the server for the first time.",
+      "color": "gold"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first_join": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "starter:reward"
+  }
+}
