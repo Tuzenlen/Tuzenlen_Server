@@ -5,12 +5,12 @@
       "id": "minecraft:leather_chestplate"
     },
     "title": {
-      "text": "Welcome to the Tuzemlen Server!",
-      "color": "gold"
+      "text": "Welcome to the Tuzenlen Server!",
+      "color": "#f07f05"
     },
     "description": {
       "text": "You have joined the server for the first time.",
-      "color": "gold"
+      "color": "#f07f05"
     },
     "frame": "task",
     "show_toast": true,

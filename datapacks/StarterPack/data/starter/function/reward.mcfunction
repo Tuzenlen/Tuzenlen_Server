@@ -11,4 +11,4 @@ give @s minecraft:enchanted_golden_apple 1
 
 
 # 聊天室提示訊息
-tellraw @s {"text":"[系統] 歡迎來到 Tuzemlen 伺服器！已發放新手禮包。", "color":"#008080"}
+tellraw @s {"text":"[系統] 歡迎來到 Tuzenlen 伺服器！已發放新手禮包。", "color":"#008080"}
