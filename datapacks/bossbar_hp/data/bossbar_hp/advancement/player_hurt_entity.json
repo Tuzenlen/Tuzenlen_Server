@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "hurt_something": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "bossbar_hp:on_hit"
+  }
+}
