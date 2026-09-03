@@ -20,6 +20,7 @@
       "minecraft:snowy_taiga": "2026-08-25 23:15:27 +0800",
       "minecraft:ice_spikes": "2026-09-02 23:11:07 +0800",
       "minecraft:frozen_river": "2026-08-25 22:36:41 +0800",
+      "minecraft:deep_dark": "2026-09-03 21:31:34 +0800",
       "minecraft:cherry_grove": "2026-09-02 01:32:24 +0800",
       "minecraft:grove": "2026-08-27 22:02:20 +0800",
       "minecraft:meadow": "2026-08-25 22:49:54 +0800",
@@ -3548,171 +3549,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_deepslate_stonecutting": {
+  "minecraft:recipes/redstone/sticky_piston": {
     "criteria": {
-      "has_deepslate": "2026-09-03 16:51:22 +0800"
+      "has_slime_ball": "2026-09-03 15:34:21 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/crafter": {
+  "minecraft:recipes/redstone/slime_block": {
     "criteria": {
-      "has_dropper": "2026-09-03 16:34:41 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_bricks_from_deepslate_stonecutting": {
-    "criteria": {
-      "has_deepslate": "2026-09-03 16:51:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_light_gray_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-09-03 16:26:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
-    "criteria": {
-      "has_gold_block": "2026-09-03 16:38:32 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_deepslate_stonecutting": {
-    "criteria": {
-      "has_deepslate": "2026-09-03 16:51:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/cyan_dye": {
-    "criteria": {
-      "has_blue_dye": "2026-09-03 16:23:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_light_gray_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-09-03 16:26:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_stonecutting": {
-    "criteria": {
-      "has_deepslate": "2026-09-03 16:51:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_candle": {
-    "criteria": {
-      "has_blue_dye": "2026-09-03 16:23:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/light_gray_bundle": {
-    "criteria": {
-      "has_light_gray_dye": "2026-09-03 16:26:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_deepslate_from_deepslate_stonecutting": {
-    "criteria": {
-      "has_deepslate": "2026-09-03 16:51:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/blue_bundle": {
-    "criteria": {
-      "has_blue_dye": "2026-09-03 16:23:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_deepslate_from_deepslate_stonecutting": {
-    "criteria": {
-      "has_deepslate": "2026-09-03 16:51:22 +0800"
+      "has_slime_ball": "2026-09-03 15:34:21 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/spyglass": {
     "criteria": {
       "has_amethyst_shard": "2026-09-03 15:35:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_deepslate_stonecutting": {
-    "criteria": {
-      "has_deepslate": "2026-09-03 16:51:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2026-09-03 16:16:52 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_blue_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-09-03 16:23:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_stonecutting": {
-    "criteria": {
-      "has_deepslate": "2026-09-03 16:51:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2026-09-03 16:41:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2026-09-03 16:41:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2026-09-03 16:52:04 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_stonecutting": {
-    "criteria": {
-      "has_deepslate": "2026-09-03 16:51:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2026-09-03 16:41:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/daylight_detector": {
-    "criteria": {
-      "has_quartz": "2026-09-03 16:41:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_blue_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-09-03 16:23:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/observer": {
-    "criteria": {
-      "has_quartz": "2026-09-03 16:41:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_blue_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-09-03 16:23:55 +0800"
     },
     "done": true
   },
@@ -3728,21 +3579,75 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2026-09-03 15:35:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-09-03 16:16:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-09-03 16:23:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2026-09-03 16:23:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/blue_bundle": {
+    "criteria": {
+      "has_blue_dye": "2026-09-03 16:23:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-09-03 16:23:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_blue_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-09-03 16:23:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-09-03 16:23:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_blue_wool": {
     "criteria": {
       "has_needed_dye": "2026-09-03 16:23:55 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/comparator": {
+  "minecraft:recipes/combat/dye_light_gray_harness": {
     "criteria": {
-      "has_quartz": "2026-09-03 16:41:50 +0800"
+      "has_needed_dye": "2026-09-03 16:26:40 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:recipes/decorations/dye_light_gray_bed": {
     "criteria": {
-      "has_slime_ball": "2026-09-03 15:34:21 +0800"
+      "has_needed_dye": "2026-09-03 16:26:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/light_gray_bundle": {
+    "criteria": {
+      "has_light_gray_dye": "2026-09-03 16:26:40 +0800"
     },
     "done": true
   },
@@ -3755,6 +3660,114 @@
   "minecraft:recipes/decorations/dye_light_gray_carpet": {
     "criteria": {
       "has_needed_dye": "2026-09-03 16:26:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_candle": {
+    "criteria": {
+      "has_light_gray_dye": "2026-09-03 16:26:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2026-09-03 16:34:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-09-03 16:38:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-09-03 16:41:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-09-03 16:41:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-09-03 16:41:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-09-03 16:41:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-09-03 16:41:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-09-03 16:41:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_deepslate_stonecutting": {
+    "criteria": {
+      "has_deepslate": "2026-09-03 16:51:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_deepslate_stonecutting": {
+    "criteria": {
+      "has_deepslate": "2026-09-03 16:51:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_deepslate_stonecutting": {
+    "criteria": {
+      "has_deepslate": "2026-09-03 16:51:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_stonecutting": {
+    "criteria": {
+      "has_deepslate": "2026-09-03 16:51:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_deepslate_stonecutting": {
+    "criteria": {
+      "has_deepslate": "2026-09-03 16:51:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_deepslate_stonecutting": {
+    "criteria": {
+      "has_deepslate": "2026-09-03 16:51:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_deepslate_stonecutting": {
+    "criteria": {
+      "has_deepslate": "2026-09-03 16:51:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_stonecutting": {
+    "criteria": {
+      "has_deepslate": "2026-09-03 16:51:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_stonecutting": {
+    "criteria": {
+      "has_deepslate": "2026-09-03 16:51:22 +0800"
     },
     "done": true
   },
@@ -3776,33 +3789,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_candle": {
-    "criteria": {
-      "has_light_gray_dye": "2026-09-03 16:26:40 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_deepslate_wall_from_deepslate_stonecutting": {
     "criteria": {
       "has_deepslate": "2026-09-03 16:51:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2026-09-03 15:34:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/amethyst_block": {
-    "criteria": {
-      "has_amethyst_shard": "2026-09-03 15:35:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2026-09-03 17:03:58 +0800"
     },
     "done": true
   },
@@ -3830,9 +3819,213 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-09-03 16:52:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-09-03 17:03:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2026-09-03 17:03:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget_from_smelting": {
+    "criteria": {
+      "has_copper_helmet": "2026-09-03 21:14:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget_from_blasting": {
+    "criteria": {
+      "has_copper_helmet": "2026-09-03 21:14:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-09-03 21:30:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-09-03 21:31:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_copper_bulb": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-09-03 21:31:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-09-03 21:31:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-09-03 21:31:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-09-03 21:31:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-09-03 21:31:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-09-03 21:31:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-09-03 21:31:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-09-03 21:31:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2026-09-03 21:49:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2026-09-03 21:52:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-09-03 22:35:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2026-09-03 22:39:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-09-03 22:39:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2026-09-03 22:39:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_yellow_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-09-03 22:39:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-09-03 22:39:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-09-03 22:39:57 +0800"
     },
     "done": true
   },
