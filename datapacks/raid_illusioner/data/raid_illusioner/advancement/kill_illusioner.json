@@ -1,0 +1,37 @@
+{
+  "parent": "raid_illusioner:get_bad_omen_v",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "text": "幻術殞落",
+      "color": "#CA8EFF",
+      "bold": true
+    },
+    "description": {
+      "text": "擊殺幻術師好處多多.......",
+      "color": "#84C1FF"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "killed_illusioner": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:illusioner"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["killed_illusioner"]
+  ]
+}

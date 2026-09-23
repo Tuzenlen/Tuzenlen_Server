@@ -1,0 +1,35 @@
+{
+  "parent": "raid_illusioner:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:villager_spawn_egg"
+    },
+    "title": {
+      "text": "恐懼吧顫抖吧",
+      "color": "#40e4ef",
+      "bold": true
+    },
+    "description": {
+      "text": "得到突襲之兆V",
+      "color": "#c09338"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_raid_omen_effect": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:raid_omen": {
+            "amplifier": 4
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["has_raid_omen_effect"]
+  ]
+}

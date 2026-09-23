@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle",
+      "components": {
+        "minecraft:ominous_bottle_amplifier": 4
+      }
+    },
+    "title": {
+      "text": "高等突襲挑戰者",
+      "bold": true
+    },
+    "description": {
+      "text": "獲得一瓶5級不祥之瓶，開啟危險的挑戰之旅！",
+      "color": "#55FF55"
+    },
+    "background": "minecraft:block/chiseled_tuff_bricks",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_level_5_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ominous_bottle",
+            "components": {
+              "minecraft:ominous_bottle_amplifier": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_level_5_bottle"]
+  ]
+}
