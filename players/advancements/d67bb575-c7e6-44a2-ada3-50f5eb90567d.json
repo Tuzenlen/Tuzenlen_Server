@@ -6122,9 +6122,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/hero_of_the_village": {
+  "raid_illusioner:get_bad_omen_v": {
     "criteria": {
-      "hero_of_the_village": "2026-09-23 01:02:30 +0800"
+      "has_raid_omen_effect": "2026-09-23 00:29:53 +0800"
     },
     "done": true
   },
@@ -6134,9 +6134,9 @@
     },
     "done": true
   },
-  "raid_illusioner:get_bad_omen_v": {
+  "minecraft:adventure/hero_of_the_village": {
     "criteria": {
-      "has_raid_omen_effect": "2026-09-23 00:29:53 +0800"
+      "hero_of_the_village": "2026-09-23 01:02:30 +0800"
     },
     "done": true
   },
