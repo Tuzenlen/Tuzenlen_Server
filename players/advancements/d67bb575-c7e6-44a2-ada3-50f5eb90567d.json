@@ -19,6 +19,7 @@
       "minecraft:desert": "2026-09-19 23:09:31 +0800",
       "minecraft:frozen_river": "2026-08-25 22:36:41 +0800",
       "minecraft:ocean": "2026-09-13 22:04:59 +0800",
+      "minecraft:jungle": "2026-09-25 01:20:17 +0800",
       "minecraft:cherry_grove": "2026-09-02 01:32:24 +0800",
       "minecraft:sunflower_plains": "2026-09-19 15:18:04 +0800",
       "minecraft:birch_forest": "2026-08-31 21:41:59 +0800",
@@ -6142,12 +6143,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/brush_armadillo": {
-    "criteria": {
-      "brush_armadillo": "2026-09-24 00:33:22 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/wolf_armor": {
     "criteria": {
       "has_armadillo_scute": "2026-09-23 23:26:55 +0800"
@@ -6157,6 +6152,24 @@
   "minecraft:recipes/misc/wolf_armor_dyed": {
     "criteria": {
       "has_wolf_armor": "2026-09-24 00:28:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/brush_armadillo": {
+    "criteria": {
+      "brush_armadillo": "2026-09-24 00:33:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/remove_wolf_armor": {
+    "criteria": {
+      "remove_wolf_armor": "2026-09-24 20:17:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2026-09-24 20:26:38 +0800"
     },
     "done": true
   },
