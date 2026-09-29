@@ -3839,35 +3839,11 @@
     },
     "done": true
   },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2026-09-24 22:42:40 +0800"
-    },
-    "done": true
-  },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
       "minecraft:ashen": "2026-09-24 21:54:44 +0800"
     },
     "done": false
-  },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2026-09-24 22:43:57 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_wool_slab": {
-    "criteria": {
-      "has_brown_wool": "2026-09-25 01:04:31 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_wool_stairs": {
-    "criteria": {
-      "has_brown_wool": "2026-09-25 01:04:31 +0800"
-    },
-    "done": true
   },
   "minecraft:recipes/building_blocks/end_stone_brick_slab": {
     "criteria": {
@@ -3893,9 +3869,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magma_block": {
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
     "criteria": {
-      "has_magma_cream": "2026-09-25 00:36:31 +0800"
+      "has_end_stone_bricks": "2026-09-24 22:38:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_end_stone_bricks": "2026-09-24 22:38:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2026-09-24 22:39:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-09-24 22:42:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2026-09-24 22:42:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-09-24 22:43:57 +0800"
     },
     "done": true
   },
@@ -3935,6 +3941,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2026-09-24 23:26:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-09-24 23:26:50 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_shulker_box": {
     "criteria": {
       "has_shulker_box": "2026-09-24 23:30:01 +0800"
@@ -3947,24 +3965,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_banner": {
-    "criteria": {
-      "has_brown_wool": "2026-09-25 01:04:31 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_bed": {
-    "criteria": {
-      "has_brown_wool": "2026-09-25 01:04:31 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_carpet": {
-    "criteria": {
-      "has_brown_wool": "2026-09-25 01:04:31 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/brown_shulker_box": {
     "criteria": {
       "has_shulker_box": "2026-09-24 23:30:01 +0800"
@@ -3974,18 +3974,6 @@
   "minecraft:recipes/decorations/cyan_shulker_box": {
     "criteria": {
       "has_shulker_box": "2026-09-24 23:30:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall": {
-    "criteria": {
-      "has_end_stone_bricks": "2026-09-24 22:38:30 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_end_stone_bricks": "2026-09-24 22:38:30 +0800"
     },
     "done": true
   },
@@ -4049,24 +4037,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/shulker_box": {
-    "criteria": {
-      "has_shulker_shell": "2026-09-24 22:39:12 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2026-09-25 00:38:18 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2026-09-25 00:38:18 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/white_shulker_box": {
     "criteria": {
       "has_shulker_box": "2026-09-24 23:30:01 +0800"
@@ -4079,21 +4049,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop": {
+  "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
-      "has_porkchop": "2026-09-25 00:42:42 +0800"
+      "has_magma_cream": "2026-09-25 00:36:31 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+  "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
-      "has_porkchop": "2026-09-25 00:42:42 +0800"
+      "has_soul_sand": "2026-09-25 00:38:18 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+  "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
-      "has_porkchop": "2026-09-25 00:42:42 +0800"
+      "has_soul_sand": "2026-09-25 00:38:18 +0800"
     },
     "done": true
   },
@@ -4115,21 +4085,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+  "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
-      "has_spire_armor_trim_smithing_template": "2026-09-24 23:26:50 +0800"
+      "has_porkchop": "2026-09-25 00:42:42 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
-      "has_smithing_trim_template": "2026-09-24 23:26:50 +0800"
+      "has_porkchop": "2026-09-25 00:42:42 +0800"
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
-      "diamond_boots": "2026-09-24 22:42:57 +0800"
+      "has_porkchop": "2026-09-25 00:42:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool_slab": {
+    "criteria": {
+      "has_brown_wool": "2026-09-25 01:04:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool_stairs": {
+    "criteria": {
+      "has_brown_wool": "2026-09-25 01:04:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2026-09-25 01:04:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2026-09-25 01:04:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2026-09-25 01:04:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2026-09-29 19:43:21 +0800"
     },
     "done": true
   },
