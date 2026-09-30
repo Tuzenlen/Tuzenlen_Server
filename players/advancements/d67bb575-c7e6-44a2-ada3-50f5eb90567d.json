@@ -214,6 +214,7 @@
       "potato": "2026-08-29 14:14:51 +0800",
       "rabbit": "2026-09-14 20:36:38 +0800",
       "poisonous_potato": "2026-09-30 00:25:09 +0800",
+      "pumpkin_pie": "2026-10-01 00:56:39 +0800",
       "mutton": "2026-08-29 14:53:39 +0800",
       "bread": "2026-08-25 23:17:26 +0800",
       "golden_apple": "2026-08-27 21:47:02 +0800",
@@ -6394,6 +6395,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2026-09-30 00:29:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2026-09-30 00:29:47 +0800"
@@ -6403,12 +6410,6 @@
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2026-09-30 00:29:47 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_wood": {
-    "criteria": {
-      "has_log": "2026-09-30 00:29:39 +0800"
     },
     "done": true
   },
@@ -6451,6 +6452,30 @@
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2026-09-30 00:29:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2026-09-30 23:44:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2026-09-30 23:44:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-10-01 00:42:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-10-01 00:42:32 +0800"
     },
     "done": true
   },
