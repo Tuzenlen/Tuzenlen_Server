@@ -720,17 +720,23 @@
       "minecraft:blaze": "2026-09-30 17:58:00 +0800",
       "minecraft:skeleton": "2026-09-10 23:10:48 +0800",
       "minecraft:phantom": "2026-09-20 21:18:40 +0800",
+      "minecraft:witch": "2026-10-03 22:55:01 +0800",
       "minecraft:hoglin": "2026-09-30 23:46:35 +0800",
       "minecraft:shulker": "2026-09-20 17:41:25 +0800",
       "minecraft:piglin": "2026-09-30 21:51:50 +0800",
+      "minecraft:vindicator": "2026-10-03 23:47:23 +0800",
       "minecraft:enderman": "2026-09-18 20:16:03 +0800",
+      "minecraft:silverfish": "2026-10-04 00:54:00 +0800",
       "minecraft:magma_cube": "2026-09-21 20:53:00 +0800",
       "minecraft:spider": "2026-09-10 23:07:40 +0800",
       "minecraft:piglin_brute": "2026-10-01 23:48:59 +0800",
+      "minecraft:vex": "2026-10-03 23:56:00 +0800",
       "minecraft:zombie": "2026-09-10 21:38:24 +0800",
       "minecraft:creeper": "2026-09-20 17:10:44 +0800",
       "minecraft:drowned": "2026-09-14 21:17:02 +0800",
-      "minecraft:slime": "2026-10-01 00:36:59 +0800"
+      "minecraft:zombie_villager": "2026-10-03 22:54:17 +0800",
+      "minecraft:slime": "2026-10-01 00:36:59 +0800",
+      "minecraft:evoker": "2026-10-03 23:55:02 +0800"
     },
     "done": false
   },
@@ -4237,9 +4243,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
     "criteria": {
-      "shot_arrow": "2026-10-01 23:47:43 +0800"
+      "has_carved_pumpkin": "2026-10-01 21:17:25 +0800"
     },
     "done": true
   },
@@ -4255,6 +4261,48 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/suspicious_stew_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2026-10-01 22:34:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2026-10-01 22:34:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2026-10-01 22:34:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2026-10-01 22:34:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_red_tulip": {
+    "criteria": {
+      "has_red_tulip": "2026-10-01 22:34:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2026-10-01 22:34:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-10-01 23:47:43 +0800"
+    },
+    "done": true
+  },
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2026-10-01 23:49:44 +0800"
@@ -4267,21 +4315,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-10-01 23:52:43 +0800"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
       "crying_obsidian": "2026-10-01 23:53:04 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+  "minecraft:recipes/decorations/respawn_anchor": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2026-10-02 00:09:32 +0800"
+      "has_obsidian": "2026-10-01 23:53:04 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jack_o_lantern": {
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
-      "has_carved_pumpkin": "2026-10-01 21:17:25 +0800"
+      "has_netherite_upgrade_smithing_template": "2026-10-02 00:00:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-10-02 00:09:32 +0800"
     },
     "done": true
   },
@@ -4321,60 +4381,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2026-10-01 23:53:04 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_orange_tulip": {
-    "criteria": {
-      "has_orange_tulip": "2026-10-01 22:34:17 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_red_tulip": {
-    "criteria": {
-      "has_red_tulip": "2026-10-01 22:34:26 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
-    "criteria": {
-      "has_white_tulip": "2026-10-01 22:34:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
-    "criteria": {
-      "has_white_tulip": "2026-10-01 22:34:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2026-10-01 23:52:43 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
-    "criteria": {
-      "has_netherite_upgrade_smithing_template": "2026-10-02 00:00:53 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
-    "criteria": {
-      "has_orange_tulip": "2026-10-01 22:34:17 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_tulip": {
-    "criteria": {
-      "has_red_flower": "2026-10-01 22:34:26 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
     "criteria": {
       "has_snout_armor_trim_smithing_template": "2026-10-02 00:12:10 +0800"
@@ -4384,6 +4390,48 @@
   "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2026-10-02 00:12:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2026-10-04 00:00:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sniper_duel": {
+    "criteria": {
+      "killed_skeleton": "2026-10-03 23:07:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2026-10-03 23:27:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2026-10-04 00:10:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-10-04 00:10:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2026-10-03 23:24:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-10-03 23:24:51 +0800"
     },
     "done": true
   },
